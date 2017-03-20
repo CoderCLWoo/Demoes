@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6BE9EE1DCB0497005886AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BE9ED1DCB0497005886AF /* main.m */; };
+		3B6BE9F11DCB0497005886AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6BE9F01DCB0497005886AF /* AppDelegate.m */; };
+		3B6BE9F71DCB0497005886AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6BE9F51DCB0497005886AF /* Main.storyboard */; };
+		3B6BE9F91DCB0497005886AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B6BE9F81DCB0497005886AF /* Assets.xcassets */; };
+		3B6BE9FC1DCB0497005886AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B6BE9FA1DCB0497005886AF /* LaunchScreen.storyboard */; };
+		3BC7C1E61DCB752800AB2013 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7C1E11DCB752800AB2013 /* LocationViewController.m */; };
+		3BC7C1E71DCB752800AB2013 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7C1E31DCB752800AB2013 /* MapViewController.m */; };
+		3BC7C1E81DCB752800AB2013 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7C1E51DCB752800AB2013 /* ViewController.m */; };
+		3BC7C1F01DCB753000AB2013 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7C1EC1DCB753000AB2013 /* SVIndefiniteAnimatedView.m */; };
+		3BC7C1F11DCB753000AB2013 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3BC7C1ED1DCB753000AB2013 /* SVProgressHUD.bundle */; };
+		3BC7C1F21DCB753000AB2013 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC7C1EF1DCB753000AB2013 /* SVProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B6BE9E91DCB0497005886AF /* 定位与地图的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "定位与地图的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6BE9ED1DCB0497005886AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B6BE9EF1DCB0497005886AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B6BE9F01DCB0497005886AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B6BE9F61DCB0497005886AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B6BE9F81DCB0497005886AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6BE9FB1DCB0497005886AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B6BE9FD1DCB0497005886AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC7C1E01DCB752800AB2013 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		3BC7C1E11DCB752800AB2013 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		3BC7C1E21DCB752800AB2013 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		3BC7C1E31DCB752800AB2013 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		3BC7C1E41DCB752800AB2013 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BC7C1E51DCB752800AB2013 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3BC7C1EB1DCB753000AB2013 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3BC7C1EC1DCB753000AB2013 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3BC7C1ED1DCB753000AB2013 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3BC7C1EE1DCB753000AB2013 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3BC7C1EF1DCB753000AB2013 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B6BE9E61DCB0497005886AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B6BE9E01DCB0497005886AF = {
+			isa = PBXGroup;
+			children = (
+				3B6BE9EB1DCB0497005886AF /* 定位与地图的使用 */,
+				3B6BE9EA1DCB0497005886AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B6BE9EA1DCB0497005886AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B6BE9E91DCB0497005886AF /* 定位与地图的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6BE9EB1DCB0497005886AF /* 定位与地图的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				3B6BE9EF1DCB0497005886AF /* AppDelegate.h */,
+				3B6BE9F01DCB0497005886AF /* AppDelegate.m */,
+				3BC7C1E91DCB753000AB2013 /* Vendor */,
+				3BC7C1DF1DCB752800AB2013 /* Controller */,
+				3B6BE9F51DCB0497005886AF /* Main.storyboard */,
+				3B6BE9F81DCB0497005886AF /* Assets.xcassets */,
+				3B6BE9FA1DCB0497005886AF /* LaunchScreen.storyboard */,
+				3B6BE9FD1DCB0497005886AF /* Info.plist */,
+				3B6BE9EC1DCB0497005886AF /* Supporting Files */,
+			);
+			path = "定位与地图的使用";
+			sourceTree = "<group>";
+		};
+		3B6BE9EC1DCB0497005886AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6BE9ED1DCB0497005886AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BC7C1DF1DCB752800AB2013 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7C1E01DCB752800AB2013 /* LocationViewController.h */,
+				3BC7C1E11DCB752800AB2013 /* LocationViewController.m */,
+				3BC7C1E21DCB752800AB2013 /* MapViewController.h */,
+				3BC7C1E31DCB752800AB2013 /* MapViewController.m */,
+				3BC7C1E41DCB752800AB2013 /* ViewController.h */,
+				3BC7C1E51DCB752800AB2013 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BC7C1E91DCB753000AB2013 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7C1EA1DCB753000AB2013 /* SVProgressHUD */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		3BC7C1EA1DCB753000AB2013 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3BC7C1EB1DCB753000AB2013 /* SVIndefiniteAnimatedView.h */,
+				3BC7C1EC1DCB753000AB2013 /* SVIndefiniteAnimatedView.m */,
+				3BC7C1ED1DCB753000AB2013 /* SVProgressHUD.bundle */,
+				3BC7C1EE1DCB753000AB2013 /* SVProgressHUD.h */,
+				3BC7C1EF1DCB753000AB2013 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B6BE9E81DCB0497005886AF /* 定位与地图的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6BEA001DCB0497005886AF /* Build configuration list for PBXNativeTarget "定位与地图的使用" */;
+			buildPhases = (
+				3B6BE9E51DCB0497005886AF /* Sources */,
+				3B6BE9E61DCB0497005886AF /* Frameworks */,
+				3B6BE9E71DCB0497005886AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "定位与地图的使用";
+			productName = "定位与地图的使用";
+			productReference = 3B6BE9E91DCB0497005886AF /* 定位与地图的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6BE9E11DCB0497005886AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = WuChunlong;
+				TargetAttributes = {
+					3B6BE9E81DCB0497005886AF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = Z8S764DC39;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3B6BE9E41DCB0497005886AF /* Build configuration list for PBXProject "定位与地图的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6BE9E01DCB0497005886AF;
+			productRefGroup = 3B6BE9EA1DCB0497005886AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B6BE9E81DCB0497005886AF /* 定位与地图的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B6BE9E71DCB0497005886AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6BE9FC1DCB0497005886AF /* LaunchScreen.storyboard in Resources */,
+				3B6BE9F91DCB0497005886AF /* Assets.xcassets in Resources */,
+				3B6BE9F71DCB0497005886AF /* Main.storyboard in Resources */,
+				3BC7C1F11DCB753000AB2013 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B6BE9E51DCB0497005886AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC7C1E61DCB752800AB2013 /* LocationViewController.m in Sources */,
+				3BC7C1F01DCB753000AB2013 /* SVIndefiniteAnimatedView.m in Sources */,
+				3BC7C1E81DCB752800AB2013 /* ViewController.m in Sources */,
+				3B6BE9F11DCB0497005886AF /* AppDelegate.m in Sources */,
+				3B6BE9EE1DCB0497005886AF /* main.m in Sources */,
+				3BC7C1F21DCB753000AB2013 /* SVProgressHUD.m in Sources */,
+				3BC7C1E71DCB752800AB2013 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B6BE9F51DCB0497005886AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6BE9F61DCB0497005886AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B6BE9FA1DCB0497005886AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6BE9FB1DCB0497005886AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B6BE9FE1DCB0497005886AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B6BE9FF1DCB0497005886AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6BEA011DCB0497005886AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8S764DC39;
+				INFOPLIST_FILE = "定位与地图的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wcl.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B6BEA021DCB0497005886AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z8S764DC39;
+				INFOPLIST_FILE = "定位与地图的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wcl.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6BE9E41DCB0497005886AF /* Build configuration list for PBXProject "定位与地图的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6BE9FE1DCB0497005886AF /* Debug */,
+				3B6BE9FF1DCB0497005886AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6BEA001DCB0497005886AF /* Build configuration list for PBXNativeTarget "定位与地图的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6BEA011DCB0497005886AF /* Debug */,
+				3B6BEA021DCB0497005886AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6BE9E11DCB0497005886AF /* Project object */;
+}
